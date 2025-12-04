@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DYNAMIC" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DYNAMIC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DYNAMIC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename=".gitignore" />
+		<Unit filename=".gitmodules" />
+		<Unit filename="CMakeLists.txt" />
+		<Unit filename="LICENSE" />
+		<Unit filename="README.md" />
+		<Unit filename="benchmark.cpp" />
+		<Unit filename="build/CMakeCache.txt" />
+		<Unit filename="build/CMakeFiles/3.10.2/CMakeCCompiler.cmake" />
+		<Unit filename="build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" />
+		<Unit filename="build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" />
+		<Unit filename="build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" />
+		<Unit filename="build/CMakeFiles/3.10.2/CMakeSystem.cmake" />
+		<Unit filename="build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+		<Unit filename="build/CMakeFiles/3.10.2/CompilerIdCXX/a.out" />
+		<Unit filename="build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/CMakeFiles/3.10.2/CompilerIdC/a.out" />
+		<Unit filename="build/CMakeFiles/CMakeDirectoryInformation.cmake" />
+		<Unit filename="build/CMakeFiles/CMakeOutput.log" />
+		<Unit filename="build/CMakeFiles/Makefile.cmake" />
+		<Unit filename="build/CMakeFiles/Makefile2" />
+		<Unit filename="build/CMakeFiles/TargetDirectories.txt" />
+		<Unit filename="build/CMakeFiles/benchmark.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/benchmark.dir/build.make" />
+		<Unit filename="build/CMakeFiles/benchmark.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/benchmark.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/benchmark.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/benchmark.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/benchmark.dir/progress.make" />
+		<Unit filename="build/CMakeFiles/cmake.check_cache" />
+		<Unit filename="build/CMakeFiles/cw-bwt.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/cw-bwt.dir/build.make" />
+		<Unit filename="build/CMakeFiles/cw-bwt.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/cw-bwt.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/cw-bwt.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/cw-bwt.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/cw-bwt.dir/progress.make" />
+		<Unit filename="build/CMakeFiles/debug.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/debug.dir/build.make" />
+		<Unit filename="build/CMakeFiles/debug.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/debug.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/debug.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/debug.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/debug.dir/progress.make" />
+		<Unit filename="build/CMakeFiles/feature_tests.bin" />
+		<Unit filename="build/CMakeFiles/feature_tests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/CMakeFiles/feature_tests.cxx" />
+		<Unit filename="build/CMakeFiles/h0_lz77.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/h0_lz77.dir/build.make" />
+		<Unit filename="build/CMakeFiles/h0_lz77.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/h0_lz77.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/h0_lz77.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/h0_lz77.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/h0_lz77.dir/progress.make" />
+		<Unit filename="build/CMakeFiles/progress.marks" />
+		<Unit filename="build/CMakeFiles/rle_bwt.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/rle_bwt.dir/build.make" />
+		<Unit filename="build/CMakeFiles/rle_bwt.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/rle_bwt.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/rle_bwt.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/rle_bwt.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/rle_bwt.dir/progress.make" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v1.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v1.dir/build.make" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v1.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v1.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v1.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v1.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v1.dir/progress.make" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v2.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v2.dir/build.make" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v2.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v2.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v2.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v2.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/rle_lz77_v2.dir/progress.make" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/CXX.includecache" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/build.make" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/depend.internal" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/progress.make" />
+		<Unit filename="build/CMakeFiles/test_access_spsi.dir/test_access_spsi.cpp.o" />
+		<Unit filename="build/CMakeFiles/wm_string.dir/DependInfo.cmake" />
+		<Unit filename="build/CMakeFiles/wm_string.dir/build.make" />
+		<Unit filename="build/CMakeFiles/wm_string.dir/cmake_clean.cmake" />
+		<Unit filename="build/CMakeFiles/wm_string.dir/depend.make" />
+		<Unit filename="build/CMakeFiles/wm_string.dir/flags.make" />
+		<Unit filename="build/CMakeFiles/wm_string.dir/link.txt" />
+		<Unit filename="build/CMakeFiles/wm_string.dir/progress.make" />
+		<Unit filename="build/Makefile" />
+		<Unit filename="build/boost.1GB" />
+		<Unit filename="build/cmake_install.cmake" />
+		<Unit filename="build/test_access_spsi" />
+		<Unit filename="build/testaccess.sh" />
+		<Unit filename="cw-bwt.cpp" />
+		<Unit filename="debug.cpp" />
+		<Unit filename="deps/hopscotch_map/.codecov.yml" />
+		<Unit filename="deps/hopscotch_map/.git" />
+		<Unit filename="deps/hopscotch_map/.travis.yml" />
+		<Unit filename="deps/hopscotch_map/CMakeLists.txt" />
+		<Unit filename="deps/hopscotch_map/LICENSE" />
+		<Unit filename="deps/hopscotch_map/README.md" />
+		<Unit filename="deps/hopscotch_map/appveyor.yml" />
+		<Unit filename="deps/hopscotch_map/cmake/tsl-hopscotch-mapConfig.cmake.in" />
+		<Unit filename="deps/hopscotch_map/doxygen.conf" />
+		<Unit filename="deps/hopscotch_map/include/tsl/bhopscotch_map.h" />
+		<Unit filename="deps/hopscotch_map/include/tsl/bhopscotch_set.h" />
+		<Unit filename="deps/hopscotch_map/include/tsl/hopscotch_growth_policy.h" />
+		<Unit filename="deps/hopscotch_map/include/tsl/hopscotch_hash.h" />
+		<Unit filename="deps/hopscotch_map/include/tsl/hopscotch_map.h" />
+		<Unit filename="deps/hopscotch_map/include/tsl/hopscotch_set.h" />
+		<Unit filename="deps/hopscotch_map/tests/CMakeLists.txt" />
+		<Unit filename="deps/hopscotch_map/tests/custom_allocator_tests.cpp" />
+		<Unit filename="deps/hopscotch_map/tests/hopscotch_map_tests.cpp" />
+		<Unit filename="deps/hopscotch_map/tests/hopscotch_set_tests.cpp" />
+		<Unit filename="deps/hopscotch_map/tests/main.cpp" />
+		<Unit filename="deps/hopscotch_map/tests/policy_tests.cpp" />
+		<Unit filename="deps/hopscotch_map/tests/utils.h" />
+		<Unit filename="deps/hopscotch_map/tsl-hopscotch-map.natvis" />
+		<Unit filename="h0_lz77.cpp" />
+		<Unit filename="include/dynamic/algorithms/cw_bwt.hpp" />
+		<Unit filename="include/dynamic/algorithms/h0_lz77.hpp" />
+		<Unit filename="include/dynamic/algorithms/rle_lz77_v1.hpp" />
+		<Unit filename="include/dynamic/algorithms/rle_lz77_v2.hpp" />
+		<Unit filename="include/dynamic/dynamic.hpp" />
+		<Unit filename="include/dynamic/internal/alphabet_encoder.hpp" />
+		<Unit filename="include/dynamic/internal/bwt.hpp" />
+		<Unit filename="include/dynamic/internal/cw_bwt/BackwardFileIterator.h" />
+		<Unit filename="include/dynamic/internal/cw_bwt/BackwardIterator.h" />
+		<Unit filename="include/dynamic/internal/cw_bwt/BackwardStringIterator.h" />
+		<Unit filename="include/dynamic/internal/cw_bwt/ContextAutomata.h" />
+		<Unit filename="include/dynamic/internal/cw_bwt/DynamicString.h" />
+		<Unit filename="include/dynamic/internal/cw_bwt/HuffmanTree.h" />
+		<Unit filename="include/dynamic/internal/cw_bwt/PartialSums.h" />
+		<Unit filename="include/dynamic/internal/fm_index.hpp" />
+		<Unit filename="include/dynamic/internal/gap_bitvector.hpp" />
+		<Unit filename="include/dynamic/internal/hacked_vector.hpp" />
+		<Unit filename="include/dynamic/internal/includes.hpp" />
+		<Unit filename="include/dynamic/internal/lciv.hpp" />
+		<Unit filename="include/dynamic/internal/packed_array.hpp" />
+		<Unit filename="include/dynamic/internal/packed_vector.hpp" />
+		<Unit filename="include/dynamic/internal/rle_string.hpp" />
+		<Unit filename="include/dynamic/internal/sparse_vector.hpp" />
+		<Unit filename="include/dynamic/internal/spsi.hpp" />
+		<Unit filename="include/dynamic/internal/spsi_check.hpp" />
+		<Unit filename="include/dynamic/internal/succinct_bitvector.hpp" />
+		<Unit filename="include/dynamic/internal/wm_string.hpp" />
+		<Unit filename="include/dynamic/internal/wt_string.hpp" />
+		<Unit filename="rle_bwt.cpp" />
+		<Unit filename="rle_lz77_v1.cpp" />
+		<Unit filename="rle_lz77_v2.cpp" />
+		<Unit filename="test_access_spsi.cpp" />
+		<Unit filename="wm_string.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

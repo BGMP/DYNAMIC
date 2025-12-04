@@ -47,3 +47,7 @@ add_executable(rle_bwt rle_bwt.cpp)
 add_executable(cw-bwt cw-bwt.cpp)
 add_executable(benchmark benchmark.cpp)
 add_executable(wm_string wm_string.cpp)
+
+add_executable(test_access_spsi test_access_spsi.cpp)
+add_dependencies(test_access_spsi hopscotch_map)
+
