@@ -51,3 +51,5 @@ add_executable(wm_string wm_string.cpp)
 add_executable(test_access_spsi test_access_spsi.cpp)
 add_dependencies(test_access_spsi hopscotch_map)
 
+add_executable(test_insert_spsi test_insert_spsi.cpp)
+add_dependencies(test_insert_spsi hopscotch_map)
