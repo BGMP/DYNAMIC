@@ -53,3 +53,6 @@ add_dependencies(test_access_spsi hopscotch_map)
 
 add_executable(test_insert_spsi test_insert_spsi.cpp)
 add_dependencies(test_insert_spsi hopscotch_map)
+
+add_executable(test_replace_spsi test_replace_spsi.cpp)
+add_dependencies(test_replace_spsi hopscotch_map)
