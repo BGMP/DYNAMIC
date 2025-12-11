@@ -56,3 +56,27 @@ add_dependencies(test_insert_spsi hopscotch_map)
 
 add_executable(test_replace_spsi test_replace_spsi.cpp)
 add_dependencies(test_replace_spsi hopscotch_map)
+
+add_executable(test_append_spsi test_append_spsi.cpp)
+add_dependencies(test_append_spsi hopscotch_map)
+
+add_executable(test_save_spsi test_save_spsi.cpp)
+add_dependencies(test_save_spsi hopscotch_map)
+
+add_executable(test_delete_spsi test_delete_spsi.cpp)
+add_dependencies(test_delete_spsi hopscotch_map)
+
+add_executable(test_build_spsi test_build_spsi.cpp)
+add_dependencies(test_build_spsi hopscotch_map)
+
+add_executable(test_append_specific_spsi test_append_specific_spsi.cpp)
+add_dependencies(test_append_specific_spsi hopscotch_map)
+
+add_executable(test_insert_specific_spsi test_insert_specific_spsi.cpp)
+add_dependencies(test_insert_specific_spsi hopscotch_map)
+
+add_executable(test_replace_specific_spsi test_replace_specific_spsi.cpp)
+add_dependencies(test_replace_specific_spsi hopscotch_map)
+
+add_executable(test_delete_specific_spsi test_delete_specific_spsi.cpp)
+add_dependencies(test_delete_specific_spsi hopscotch_map)

@@ -190,6 +190,10 @@
 		<Unit filename="rle_lz77_v1.cpp" />
 		<Unit filename="rle_lz77_v2.cpp" />
 		<Unit filename="test_access_spsi.cpp" />
+		<Unit filename="test_append_specific_spsi.cpp" />
+		<Unit filename="test_append_spsi.cpp" />
+		<Unit filename="test_build_spsi.cpp" />
+		<Unit filename="test_delete_spsi.cpp" />
 		<Unit filename="wm_string.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
